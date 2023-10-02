@@ -1,0 +1,22 @@
+.title-text {
+    display: flex;
+    padding-top: 20%;
+    padding-left: 10%;
+    width: 70%;
+    height: 200px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+}
+
+.elements-container {
+    display: flex;
+    width: 100%;
+    height: 590px;
+    background-image: url('../../../public/img/background-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
