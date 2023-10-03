@@ -7,18 +7,22 @@ import Cardapio from './components/pages/cardapio';
 import Contato from './components/pages/contato';
 import Sobre from './components/pages/sobre';
 import Inscreva from './components/pages/inscreva';
+import Login from './components/pages/login';
+import Registrar from './components/pages/registrar';
 
 function App() {
     return (
         <div className="App">
             <NavBar />
-            <Home />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/cardapio" element={<Cardapio />} />
                 <Route path="/contato" element={<Contato />} />
                 <Route path="/sobre" element={<Sobre />} />
                 <Route path="/inscreva" element={<Inscreva />} />
+                <Route path="*" element={<h1>Página não encontrada</h1>} />
+                <Route path="/login" element={<Login />} />
+                <Route path="/registrar" element={<Registrar />} />
             </Routes>
         </div>
     );
