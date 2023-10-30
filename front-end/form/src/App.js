@@ -7,7 +7,7 @@ const App = () => {
         <div className="App">
             <div className="ui container">
                 <FormCadastro />
-            </div>
+                </div>
         </div>
     );
 };
